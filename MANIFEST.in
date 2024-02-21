@@ -1,0 +1,2 @@
+include src/nisqalib/nisqa/LICENSE
+include src/nisqalib/nisqa/weights/*.tar

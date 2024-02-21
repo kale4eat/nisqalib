@@ -1,0 +1,3 @@
+[submodule "src/nisqalib/nisqa"]
+	path = src/nisqalib/nisqa
+	url = https://github.com/kale4eat/NISQA
