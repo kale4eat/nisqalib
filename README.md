@@ -36,3 +36,16 @@ result = nisqalib.predict_file(
 
 mos_pred_mean = result["mos_pred"].mean()
 ```
+
+The following methods are also available.
+First load the model, and then use the model to make predictions.
+
+```python
+import nisqalib
+
+model = nisqalib.NisqaModel("nisqa")
+
+waveform, sr = torchaudio.load("/path/to/wav/file.wav")
+result = model.predict(waveform, sr)
+mos_pred = result["mos_pred"]
+```
