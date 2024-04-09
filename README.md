@@ -41,6 +41,8 @@ The following methods are also available.
 First load the model, and then use the model to make predictions.
 
 ```python
+import torchaudio
+
 import nisqalib
 
 model = nisqalib.NisqaModel("nisqa")
